@@ -1,0 +1,12 @@
+.home-wrapper {
+    background-color: #bdc3c7;
+    color: #1a1d1d;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
+    height: 100vh;
+}
+.text-home {
+    grid-area: 1/1;
+    text-align: center;
+}

@@ -1,0 +1,32 @@
+.intro {
+    background: #1a1d1d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro-text {
+    color: rgb(235, 235, 235);
+    font-size: 3rem;
+}
+.slider {
+    background: #00adb5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+}
+.hide {
+    background: #1a1d1d;
+    overflow: hidden;
+}
+.hide .text {
+    transform: translateY(100%);
+    display: inline-block;
+}

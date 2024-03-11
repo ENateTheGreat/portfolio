@@ -1,0 +1,19 @@
+.aboutP {
+    text-align: left;
+    margin: 100px 300px 0 300px;
+    line-height: 35px;
+    height: 150vh ;
+    font-size: 25px;
+}
+.about-wrapper {
+    background-color: #BDC3C7;
+    display: grid;
+    grid-template-rows: 1 auto;
+}
+.intro.A {
+    font-size: 50px;
+}
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}
