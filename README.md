@@ -1,3 +1,10 @@
+# Notes for placement
+
+This is my working code for my portfolio website. The current project before finalization is integrating projects into the website to make it interactive.
+The current learning path right now is creating a RESTful api to store and mutate data.
+
+Thanks!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
