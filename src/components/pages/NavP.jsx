@@ -6,7 +6,7 @@ export default function NavP() {
     return (
         <div className='NavP-wrapper'>
             <nav className="projs">
-                <Link to="/portfolio/numGen"><button id='navP' className='numGen'>Number<br/>Genereator</button></Link>
+                <Link to="/portfolio/numbergenerator"><button id='navP' className='numGen'>Number<br/>Genereator</button></Link>
                 <Link to="/portfolio/DragonRepeller"><button id='navP' className='textGame'>Text<br/>Game</button></Link>
                 <Link to="/portfolio/weatherApp"><button id='navP' className='weatherApp'>Weather<br/>App</button></Link>
                 <Link to="/portfolio/palindromeChecker"><button id='navP' className='palindromeChecker'>Palindrome<br/>Checker</button></Link>

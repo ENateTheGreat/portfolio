@@ -1,0 +1,59 @@
+.num-gen-wrapper, #num-gen, html {
+    background-color: #BDC3C7;
+    margin-bottom: 0;
+}
+h1.num-title {
+    margin-top: 0;
+    padding-top: 30px;
+}
+.num-header-wrapper, .num-input-forms, .generated-nums {
+    text-align: center;
+}
+.generated-nums {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px 100px;
+    
+}
+.number-box {
+    display: grid;
+    width: 150px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 75px;
+    margin: 15px 15px;
+    border-radius: 15px;
+}
+.num-submit {
+    background-color: #00adb5;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    height: 40px;
+    width: 200px;
+    font-size: 18px;
+    
+}
+.num-enter {
+    background-color: rgb(26, 29, 29);
+    color: #BDC3C7;
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    font-size: 18px;
+}
+.num-input-forms {
+    display: block;
+}
+.num-enter, .num-submit {
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.num-submit:hover {
+    background-color: #55f6ff;
+}
+.num-submit:active {
+    background-color: rgb(26, 29, 29);
+    color: #BDC3C7;
+}
