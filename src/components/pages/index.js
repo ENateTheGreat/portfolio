@@ -6,6 +6,7 @@ import Intro from './Intro.jsx'
 import NavP from './NavP.jsx'
 import DragonRepeller from './projects/dragonRepeller/DragonRepellerStack.jsx'
 import NumberGenerator from './projects/numGen/NumberGenerator.jsx'
+import WeatherApp from './projects/WeatherApp/WeatherApp.jsx'
 
 export {
     HomePage,
@@ -16,4 +17,5 @@ export {
     NavP,
     DragonRepeller,
     NumberGenerator,
+    WeatherApp,
 }
