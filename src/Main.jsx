@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from "./components/NavBar";
 import { Routes, Route } from 'react-router-dom'
-import { About, Contact, Portfolio, HomePage, Intro, DragonHome  } from './components/pages'
+import { About, Contact, Portfolio, HomePage, Intro, DragonRepeller, NumberGenerator  } from './components/pages'
 
 
 
@@ -16,7 +16,8 @@ const Main = () => {
         <Route path='/about' element={<About />} />
         <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/contact' element={<Contact />} />
-        <Route path='/portfolio/dragonrepeller' element={<DragonHome />} />
+        <Route path='/portfolio/dragonrepeller' element={<DragonRepeller />} />
+        <Route path='/portfolio/numbergenerator' element={<NumberGenerator />} />
         
       </Routes>
     </div>

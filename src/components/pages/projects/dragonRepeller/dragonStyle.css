@@ -39,16 +39,16 @@
   .gButton {
     cursor: pointer;
     color: #0a0a23;
-    background-color: #feac32;
-    background-image: linear-gradient(#fecc4c, #ffac33);
-    border: 3px solid #feac32;
+    background-color: #00adb5;
+    background-image: linear-gradient(#00adb5, #55f6ff);
+    border: 3px solid #55f6ff;
     transition: .3s;
   }
 .gButton:hover:before{
     color: #0a0a23;
-    background-color: #feac32;
-    background-image: linear-gradient(#fecc4c, #ffac33);
-    border: 3px solid #feac32;
+    background-color: #00adb5;
+    background-image: linear-gradient(#00adb5, #55f6ff);
+    border: 3px solid #55f6ff;
 }
 .gButton:hover{
     color: aliceblue;

@@ -4,8 +4,8 @@ import Contact from './Contact'
 import Portfolio from './Portfolio'
 import Intro from './Intro.jsx'
 import NavP from './NavP.jsx'
-import DragonHome from './projects/dragonRepeller/0_DragonHome.jsx'
-//import NumGen from './projects/numGen/NumGen.jsx'
+import DragonRepeller from './projects/dragonRepeller/DragonRepellerStack.jsx'
+import NumberGenerator from './projects/numGen/NumberGenerator.jsx'
 
 export {
     HomePage,
@@ -14,6 +14,6 @@ export {
     Portfolio,
     Intro,
     NavP,
-    DragonHome,
-   // NumGen
+    DragonRepeller,
+    NumberGenerator,
 }

@@ -2,7 +2,7 @@ import './../styles/NavBar.css';
 import { Link } from 'react-router-dom'
 
 function Nav() {
-const content = '<Edward N, Lee/>'
+const content = '<EdwardLee />'
   return (
     <div className="header-wrapper">
       <h1 className="name">{content}</h1>
