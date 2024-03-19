@@ -1,0 +1,147 @@
+/* initial load in animation */
+@keyframes fallIn {
+    0% {
+        opacity: 0%;
+        transform: rotate(100deg) scale(0) translateY(250%);
+    }
+    50%{
+        opacity: 30%;
+    }
+    70%{
+        opacity: 60%;
+    }
+    100% {
+        opacity: 100%;
+        transform: rotate(0deg) scale(1) translateY(0%);
+    }
+}
+.weather-app-container {
+    display: grid;
+    text-align: center;
+    animation: 1s ease-out 0s 1 fallIn;
+}
+.weather-header-wrapper {
+    grid-template-columns: repeat(4, 1fr);
+}
+.weather-title {
+    font-weight: bolder;
+    font-size: 55px;
+    display: inline-block;
+    border-top: 10px #87CEEB groove;
+    border-left: 10px #87CEEB groove;
+    border-right: 10px #F2994A groove;
+    border-bottom: 10px #F2994A groove;
+    border-radius: 50px;
+    background-color: rgb(26, 29, 29);
+    color: #BDC3C7;
+    padding: 0 20px;
+    grid-column: 2 span 1;
+    margin-top: 30px;
+}
+.weather-input-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 17px;
+    margin-top: -22px;
+    margin-left: 200px;
+}
+.weather-text {
+    grid-column: 2;
+    min-width: 125px;
+    -webkit-transition: min-width .35s ease-in-out;
+    transition: min-width .35s ease-in-out;
+    height: 25px;
+    justify-self: right;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #87CEEB;
+    border: #F2994A solid;
+}
+.weather-text:focus {
+    outline: none;
+    border-color: #87CEEB;
+    background: #F2994A;
+    min-width: 218px; /* does not work :( fix later */
+}
+.weather-submit {
+    grid-column: 3;
+    max-width: 100px;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: #F2994A;
+    border: #87CEEB solid;
+    color: #76797a;
+}
+.weather-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 40px;
+    background-clip: padding-box;
+    filter: alpha(opacity = 0);
+}
+.weather-name {
+    grid-column: 2 / span 2;
+    grid-row: 1;
+    justify-self: normal;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 70px;
+    font-weight: bold;
+    /* border-top-right-radius: 50px;
+    border-top-left-radius: 50px;  lets see if I want to add a border to this version */
+}
+.weather-temp {
+    grid-column: 2 / span 2;
+    grid-row: 3;
+    font-size: 40px;
+    font-weight: 600;
+    justify-self: center;
+    padding-top: 15px;
+}
+.weather-description {
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 40px;
+    font-weight: 600;
+    justify-self: center;
+    padding-top: 7%;
+}
+.weather-icon {
+    grid-column: 3;
+    grid-row: 2;
+    height: 100%;
+    justify-self: center;
+    margin-top: 10px;
+}
+.weather-submit {
+    --c:  #F2994A; /* the color*/
+    
+    box-shadow: 0 0 0 .1em inset var(--c); 
+    --_g: linear-gradient(var(--c) 0 0) no-repeat;
+    background: 
+        var(--_g) calc(var(--_p,0%) - 100%) 0%,
+        var(--_g) calc(200% - var(--_p,0%)) 0%,
+        var(--_g) calc(var(--_p,0%) - 100%) 100%,
+        var(--_g) calc(200% - var(--_p,0%)) 100%;
+    background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
+    outline-offset: .1em;
+    transition: background-size .4s, background-position 0s .4s;
+}
+.weather-submit:hover {
+    --_p: 100%;
+    transition: background-position .4s, background-size 0s;
+}
+.weather-submit:active {
+    box-shadow: 0 0 9e9q inset #0009; 
+    background-color: var(--c);
+    color: #fff;
+}
+.weather-submit{
+    transition: all.35s ease-in-out;
+}
+.submit:hover{
+    margin-left: 15px;
+    transform: scale(1.3);
+}
