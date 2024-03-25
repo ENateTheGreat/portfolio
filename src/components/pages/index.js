@@ -7,6 +7,9 @@ import NavP from './NavP.jsx'
 import DragonRepeller from './projects/dragonRepeller/DragonRepellerStack.jsx'
 import NumberGenerator from './projects/numGen/NumberGenerator.jsx'
 import WeatherApp from './projects/WeatherApp/WeatherApp.jsx'
+import PalindromeChecker from './projects/palindromeChecker/PalindromeChecker.jsx'
+import KeyboardCode from './projects/keyboardCode/KeyboardCode.jsx'
+import PlanetWeight from './projects/planetWeight/PlanetWeight.jsx'
 
 export {
     HomePage,
@@ -18,4 +21,7 @@ export {
     DragonRepeller,
     NumberGenerator,
     WeatherApp,
+    PalindromeChecker,
+    KeyboardCode,
+    PlanetWeight
 }

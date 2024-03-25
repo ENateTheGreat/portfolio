@@ -31,7 +31,7 @@ h1.num-title {
     height: 40px;
     width: 200px;
     font-size: 18px;
-    
+    transition: .3s;
 }
 .num-enter {
     background-color: rgb(26, 29, 29);
@@ -51,7 +51,7 @@ h1.num-title {
     box-sizing: content-box;
 }
 .num-submit:hover {
-    background-color: #55f6ff;
+    background-color: #F2994A;
 }
 .num-submit:active {
     background-color: rgb(26, 29, 29);

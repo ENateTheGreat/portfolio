@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
 import './dragonStyle.css'
-import NavP from '../../NavP'
+//import NavP from '../../NavP' // to be fully removed post completion of dropdown
 
-// locate maps
+// locate maps to keep closure fresh
 const LOCATION = {
     TOWN: 'TOWN',
     STORE: 'STORE',
@@ -371,7 +371,7 @@ export default function DragonRepeller() {
     };
     return (
         <div className="game-wrapper">
-            <NavP />
+            {/*<NavP /> // to be fully removed post completion of dropdown */}
         <div id='game'>
         <div id="stats">
             <span className="stat">XP: <strong><span id="xpText">{xp}</span></strong></span>
@@ -398,6 +398,6 @@ export default function DragonRepeller() {
             {text}
         </div>
         </div>
-        </div>
+</div>
     )
 }

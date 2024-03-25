@@ -2,6 +2,7 @@ import './../../styles/NavP.css'
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+
 export default function NavP() {
     return (
         <div className='NavP-wrapper'>
@@ -18,3 +19,6 @@ export default function NavP() {
 }
 
 
+//No longer needed --- will be deleted soon - keeping for safety/backreference
+// removed from all projects componenets
+document.querySelector("#root > div > div.App > div > nav > ul > li.portfolio-L")

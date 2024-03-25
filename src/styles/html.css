@@ -1,0 +1,16 @@
+/* Mass style for web page*/
+body {
+    overflow-y: scroll;
+}
+  /* hiding the scrollbar in chrome, safari, and opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+  /* hiding the scrollbar in IE, edge, and firefox */
+body {
+    -ms-overflow-style: none; /* IE and edge */
+    scrollbar-width: none; /* Firefox */
+}
+*{
+    font-family: 'Fira Code', monospace;
+}
