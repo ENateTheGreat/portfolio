@@ -14,7 +14,7 @@
     margin: 200px auto 0px;
     
     
-    box-shadow: 0rem 2rem 3rem 1rem  #1a1d1d;
+    box-shadow: .25rem .25rem 1.25rem .75rem  #848d8d;
   }
   
   #controls,
@@ -39,22 +39,22 @@
   .gButton {
     cursor: pointer;
     color: #0a0a23;
-    background-color: #00adb5;
-    background-image: linear-gradient(#00adb5, #55f6ff);
-    border: 3px solid #55f6ff;
+    background-color: #F2994A;
+    background-image: linear-gradient(#F2994A, #bb7232);
+    border: 3px solid #fcaf6b;
     transition: .3s;
   }
 .gButton:hover:before{
     color: #0a0a23;
-    background-color: #00adb5;
-    background-image: linear-gradient(#00adb5, #55f6ff);
-    border: 3px solid #55f6ff;
+    background-color: #F2994A;
+    background-image: linear-gradient(#F2994A, #bb7232);
+    border: 3px solid #fcaf6b;
 }
 .gButton:hover{
-    color: aliceblue;
-    border: 3px solid #0153cd;
-    background-color: #0153cd;
-    background-image: linear-gradient(#0133b3, #0053cc);
+    color: #0a0a23;
+    border: 3px solid #55f6ff;
+    background-color: #55f6ff;
+    background-image: linear-gradient(#55f6ff, #87CEEB);
 }
 #controls {
   display: flex;

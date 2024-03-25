@@ -1,7 +1,27 @@
 import './../styles/NavBar.css';
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
+import { menuItemsData } from './menuItems.js'
+import MenuItems from './MenuItems.jsx';
 
 function Nav() {
+
+  const content = '<EdwardLee />'
+
+  return (
+    <div className="header-wrapper">
+      <h1 className="name">{content}</h1>
+      <nav className="nav">
+        <ul className='menus-nav'>
+          {menuItemsData.map((menu, index) => {
+            return <MenuItems items={menu} key={index} />
+          })}
+        </ul>
+      </nav>
+    </div>
+  )
+}
+
+/* function Nav() {
 const content = '<EdwardLee />'
   return (
     <div className="header-wrapper">
@@ -16,7 +36,7 @@ const content = '<EdwardLee />'
     </div>
   )
 }
-
+*/
 function NavBar() {
   return (
     <div className="App">
@@ -25,5 +45,5 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default NavBar; 
 

@@ -1,7 +1,8 @@
 import React from 'react'
 import NavBar from "./components/NavBar";
 import { Routes, Route } from 'react-router-dom'
-import { About, Contact, Portfolio, HomePage, Intro, DragonRepeller, NumberGenerator, WeatherApp  } from './components/pages'
+import { About, Contact, Portfolio, HomePage, Intro, DragonRepeller, NumberGenerator, WeatherApp, PalindromeChecker, KeyboardCode, PlanetWeight  } from './components/pages'
+import './styles/html.css'
 
 
 
@@ -19,7 +20,9 @@ const Main = () => {
         <Route path='/portfolio/dragonrepeller' element={<DragonRepeller />} />
         <Route path='/portfolio/numbergenerator' element={<NumberGenerator />} />
         <Route path='/portfolio/weatherapp' element={<WeatherApp />} />
-        
+        <Route path='/portfolio/palindromeChecker' element={<PalindromeChecker />} />
+        <Route path='/portfolio/keyboardCode' element={<KeyboardCode />} />
+        <Route path='/portfolio/planetWeight' element={<PlanetWeight />} />
       </Routes>
     </div>
   );

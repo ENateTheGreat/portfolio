@@ -1,14 +1,14 @@
 import React, {useState, useRef} from 'react'
-import NavP from '../../NavP';
+//import NavP from '../../NavP'; // to be fully removed post completion of the dropdown
 import './numberStyle.css'
-
+// variable to keep closure fresh
 let NUMBERS = []
-
+// functional component
 function NumberGenerator() {
-
+// react hooks
     const [numbers, setNumbers] = useState(NUMBERS)
     const inputRef = useRef();
-    
+// function for running the number generator
     const submitHandler = (e) => {
         e.preventDefault()
         NUMBERS = []
@@ -17,7 +17,7 @@ function NumberGenerator() {
         }
         setNumbers(NUMBERS)
     };
-
+// functions for sorting if the number is even, odd, or prime
     const isPrime = (num) => {
         if (num <= 2) { return false }
         for (let i = 2; i < num; i++) {
@@ -64,7 +64,7 @@ function NumberGenerator() {
     }
     return (
         <div className='numGen-wrapper'>
-            <NavP />
+            {/*<NavP /> // to be fully removed post completion of dropdown */}
             <div id='num-gen'>
             <div className="num-header-wrapper">
                 <h1 className="num-title">Number Generator</h1>
