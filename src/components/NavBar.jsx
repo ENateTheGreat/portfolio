@@ -3,7 +3,7 @@ import './../styles/NavBar.css';
 import { menuItemsData } from './menuItems.js'
 import MenuItems from './MenuItems.jsx';
 
-function Nav() {
+function NavBar() {
 
   const content = '<EdwardLee />'
 
@@ -13,8 +13,9 @@ function Nav() {
       <nav className="nav">
         <ul className='menus-nav'>
           {menuItemsData.map((menu, index) => {
-            return <MenuItems items={menu} key={index} />
+            return <MenuItems items={menu} key={index} />;
           })}
+          {/* I see that using index as the key is poor practice and make the code non reusable, will look into that */}
         </ul>
       </nav>
     </div>
@@ -37,13 +38,13 @@ const content = '<EdwardLee />'
   )
 }
 */
-function NavBar() {
+/*function NavBar() {
   return (
-    <div className="App">
+    <div className="nav-app">
       <Nav />
     </div>
   );
-}
+} */
 
 export default NavBar; 
 

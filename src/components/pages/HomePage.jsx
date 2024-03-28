@@ -17,7 +17,7 @@ export default function HomePage() {
     }, {scope: container}) */
 
     return (
-        <div ref={container}>
+        <div ref={container}id='home-wrapper'>
             <div className='home-wrapper'>
                 <p className='text-home'>Full-Stack Developer</p>
             </div>

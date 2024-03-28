@@ -10,7 +10,7 @@ export default function Intro() {
         
             gsap.to('.text', {y:'0%', duration: 1});
             gsap.to('.slider', {y: '-100%', duration: 1.5, delay: 1.5});
-            gsap.to('.intro', {y: '-100%', duration: .75}, '-=1');
+            gsap.to('.intro', {y: '-100%', duration: .75}, '-=1.5');
         
         console.log(container)
     }, {scope: container})
