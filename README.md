@@ -1,6 +1,15 @@
 # Notes for placement
 
-This is my working code for my portfolio website. The current project before finalization is integrating projects into the website to make it interactive.
+This is my working code for my portfolio website. The current set of tasks before finalization is:
+-  integrating the final project into the website. (the planet weight calculator)
+  -  Improve the styling on all of the integrated projects. 
+-  Impoving the flow of the about section and adding photos.
+-  Adding some more visually appealing design in the whitespaces.
+-  Creating a socials footer component for ease of contact.
+  -   Making a floating button towards the top to bring the page down to the contact section.
+-  Picking a new, visually appealing font.
+-  Creating a hover functionality for the dropdown menu.
+-  Make the website accessible on mobile devices.
 
 Thanks!
 
