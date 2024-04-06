@@ -5,9 +5,6 @@ import '../styles/dropdown.css'
 
 function Dropdown({ submenus, dropdown }) {
 
-    /* const itemStyle = { // probs dont need this..
-        "top": `${submenus.index * 1.8}em`
-    } */
 
     return (
         <ul className='dropdownMenu' id='dropdown' style={{ opacity: `${dropdown ? 1 : 0}`,
