@@ -11,6 +11,8 @@ This is my working code for my portfolio website. The current set of tasks befor
 -  Creating a hover functionality for the dropdown menu.
 -  Make the website accessible on mobile devices.
 
+-- within the bootstrap branch I am testing out the creation of a more intuitive dropdown menu using bootstrap -- this may be removed as bootstrap may not be the most beneficial way to create the multilevel dropdown that is invisioned.
+
 Thanks!
 
 # Getting Started with Create React App
