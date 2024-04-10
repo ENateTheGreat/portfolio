@@ -19,7 +19,7 @@ export default function HomePage() {
     return (
         <div ref={container}id='home-wrapper'>
             <div className='home-wrapper'>
-                <p className='text-home'>Full-Stack Developer</p>
+                <p className='text-home'>React.js Developer</p>
             </div>
         </div>
     )

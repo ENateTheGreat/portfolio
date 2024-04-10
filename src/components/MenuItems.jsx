@@ -26,9 +26,9 @@ function MenuItems({ items }) {
                         className={items.className} 
                         aria-expanded={dropdown ? "true" : "false"} onClick={() => setDropdown((prev) => !prev)}
                         ref={items.ref === 'dropRef' ? dropRef : 0}>
-                        {items.title}{' '}
+                        <span className='skew-correct-span'><p className='skew-correct'>{items.title}{' '}</p></span>
                     </button>
-                    <Dropdown submenus={items.submenu} dropdown={dropdown} onClick={() => setDropdown(false)}/>
+                    <Dropdown submenus={items.submenu} dropdown={dropdown} onClick={() => setDropdown(false)}/> 
                 </>
 
             ) : (
@@ -38,7 +38,7 @@ function MenuItems({ items }) {
                     className={items.linkClass}>
                         <button 
                             className={items.className}>
-                                {items.title}
+                                <span className='skew-correct-span'><p className='skew-correct'>{items.title}</p></span>
                         </button>
                 </Link>
             )}
