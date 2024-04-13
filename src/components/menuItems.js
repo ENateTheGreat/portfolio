@@ -24,8 +24,8 @@ export const menuItemsData = [
                 url: '/portfolio/dragonRepeller',
                 urlA: '/portfolio/dragonRepeller/about',
                 className: 'dragonRepeller',
-                classNameA: 'dragonRepeller-about', // look into using items.submenu.urlA ?: (ternary operator)
-                index: 1,
+                classNameA: 'dragonRepeller-about', // look into using items.submenu.urlA ?: (ternary operator) and use items.submenu.classNameA to style the new components
+                index: 0,
             },
             {
                 title: 'Weather App',
@@ -33,7 +33,7 @@ export const menuItemsData = [
                 urlA: '/portfolio/weatherApp/about',
                 className: 'weatherApp',
                 classNameA: 'weatherApp-about',
-                index: 2,
+                index: 1,
             },
             {
                 title: 'Planet Weight',
@@ -41,7 +41,7 @@ export const menuItemsData = [
                 urlA: '/portfolio/planetWeight/about',
                 className: 'planetWeight',
                 classNameA: 'planetWeight-about',
-                index: 3,
+                index: 2,
             },
             {
                 title: 'Keyboard Code',
@@ -49,7 +49,7 @@ export const menuItemsData = [
                 urlA: '/portfolio/keyboardCode/about',
                 className: 'keyboardCode',
                 classNameA: 'keyboardCode-about',
-                index: 4,
+                index: 3,
             },
             {
                 title: 'Palindrome Checker',
@@ -57,7 +57,7 @@ export const menuItemsData = [
                 urlA: '/portfolio/palindromeChecker/about',
                 className: 'palindromeChecker',
                 classNameA: 'palindromeChecker-about',
-                index: 5,
+                index: 4,
             },
             {
                 title: 'Number Generator',
@@ -65,7 +65,7 @@ export const menuItemsData = [
                 urlA: '/portfolio/numberGenerator/about',
                 className: 'numberGenerator',
                 classNameA: 'numberGenerator-about',
-                index: 6,
+                index: 5,
             }
         ]
     }
